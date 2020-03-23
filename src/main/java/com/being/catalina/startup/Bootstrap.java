@@ -55,8 +55,6 @@ public final class Bootstrap {
         }
         Method method = catalinaDaemon.getClass().getMethod("start", (Class[]) null);
         method.invoke(catalinaDaemon, (Object[]) null);
-
-
     }
 
     public void init() throws Exception {
